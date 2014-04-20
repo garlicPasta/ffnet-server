@@ -4,7 +4,7 @@ from ffnet import ffnet, mlgraph
 input = [[0., 0.], [0., 1.], [1., 0.], [1., 1.]]
 target = [[1.], [0.], [0.], [1.]]
 ### XOR problem example for ffnet ###
-class Nn:
+class neuronal_network:
 
 # Generate standard layered network architecture and create network
     def __init__(self):
